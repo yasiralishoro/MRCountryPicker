@@ -55,7 +55,7 @@ class SwiftCountryView: NibLoadingView {
     
     func setup(_ country: Country, locale: Locale?) {
         if let flag = country.flag {
-            flagImageView.layer.borderWidth = 0.5
+            flagImageView.layer.borderWidth = 0
             flagImageView.layer.borderColor = UIColor.darkGray.cgColor
             flagImageView.layer.cornerRadius = 1
             flagImageView.layer.masksToBounds = true
